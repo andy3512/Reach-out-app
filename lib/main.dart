@@ -11,7 +11,7 @@ void main() async{
   runApp(
       MaterialApp (
         debugShowCheckedModeBanner: false,
-        initialRoute: 'homePage',
+        initialRoute: 'phone',
         routes: {
           'phone' : (context) => PhoneNumber(),
           'otp' : (context) => Otp(),
